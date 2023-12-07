@@ -1,0 +1,50 @@
+[2023-11-25 14:35:46,424] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:35:46] "DELETE /usuario?name=Maria HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:35:53,925] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:35:53] "DELETE /usuario?name=Marcos HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:36:13,749] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:36:13] "DELETE /usuario?name=Carolina HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:36:23,375] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:36:23] "GET /usuarios HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:45:34,992] INFO _log() L224  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000 - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:45:34,992] INFO _log() L224  [33mPress CTRL+C to quit[0m - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:46:14,073] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:46:14] "[32mGET / HTTP/1.1[0m" 302 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:46:14,077] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:46:14] "GET /openapi/ HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:46:14,537] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:46:14] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:46:14,537] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:46:14] "[36mGET /openapi/static/images/rapidoc.svg HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:46:14,537] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:46:14] "[36mGET /openapi/static/images/redoc.svg HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:46:15,997] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:46:15] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:46:16,015] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:46:16] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:46:16,020] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:46:16] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:46:16,021] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:46:16] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:46:16,206] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:46:16] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:46:24,597] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:46:24] "GET /usuarios HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:46:32,382] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:46:32] "GET /usuarios HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:46:34,478] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:46:34] "GET /usuarios HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:47:08,427] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:47:08] "GET /usuarios HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:47:23,423] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:47:23] "GET /usuarios?nome=Fabio HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:47:33,629] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:47:33] "GET /usuarios?nome=Felipe HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:47:34,270] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:47:34] "POST /usuario HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:53:34,825] INFO _log() L224  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000 - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:53:34,825] INFO _log() L224  [33mPress CTRL+C to quit[0m - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:53:41,721] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:53:41] "[32mGET / HTTP/1.1[0m" 302 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:53:41,730] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:53:41] "GET /openapi/ HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:53:42,210] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:53:42] "[36mGET /openapi/static/images/rapidoc.svg HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:53:42,210] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:53:42] "[36mGET /openapi/static/images/redoc.svg HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:53:42,210] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:53:42] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:53:43,731] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:53:43] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:53:43,752] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:53:43] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:53:43,757] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:53:43] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:53:43,759] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:53:43] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:53:43,949] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:53:43] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:53:48,952] WARNING get_usuarios() L51   Não há usuários cadastrados na base :/ - call_trace=C:\_0000_MVP_Final\MVP_ESSI\api\app.py L51  
+[2023-11-25 14:53:48,953] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:53:48] "[33mGET /usuarios HTTP/1.1[0m" 404 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:54:04,745] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:54:04] "POST /usuario HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:54:11,118] WARNING predict() L98   Erro ao adicionar usuario 'Maria', Usuário já existente na base :/ - call_trace=C:\_0000_MVP_Final\MVP_ESSI\api\app.py L98  
+[2023-11-25 14:54:11,120] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:54:11] "[31m[1mPOST /usuario HTTP/1.1[0m" 409 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:54:28,975] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:54:28] "GET /usuarios HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:54:31,975] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:54:31] "GET /usuarios HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:54:49,523] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:54:49] "GET /usuarios?nome=Fabio HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 14:54:49,628] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 14:54:49] "POST /usuario HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 

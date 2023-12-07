@@ -1,0 +1,74 @@
+[2023-11-25 16:02:34,071] ERROR log_exception() L1741 Exception on /usuario [POST] - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\flask\app.py L1741
+Traceback (most recent call last):
+  File "C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\flask_openapi3\scaffold.py", line 104, in view_func
+    response = func(**result)
+  File "C:\_0000_MVP_Final\MVP_ESSI\api\app.py", line 79, in predict
+    modelo = Model.carrega_modelo(ml_path)
+  File "C:\_0000_MVP_Final\MVP_ESSI\api\model\modelo.py", line 12, in carrega_modelo
+    model = pickle.load(open(path, 'rb'))
+FileNotFoundError: [Errno 2] No such file or directory: 'ml_model/modelo_ads002.pkl'
+[2023-11-25 16:02:34,088] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 16:02:34] "[35m[1mPOST /usuario HTTP/1.1[0m" 500 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 16:02:37,581] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 16:02:37] "GET /usuarios HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 16:03:00,846] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 16:03:00] "GET /usuarios?nome=Vanessa HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 16:03:00,853] ERROR log_exception() L1741 Exception on /usuario [POST] - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\flask\app.py L1741
+Traceback (most recent call last):
+  File "C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\flask_openapi3\scaffold.py", line 104, in view_func
+    response = func(**result)
+  File "C:\_0000_MVP_Final\MVP_ESSI\api\app.py", line 79, in predict
+    modelo = Model.carrega_modelo(ml_path)
+  File "C:\_0000_MVP_Final\MVP_ESSI\api\model\modelo.py", line 12, in carrega_modelo
+    model = pickle.load(open(path, 'rb'))
+FileNotFoundError: [Errno 2] No such file or directory: 'ml_model/modelo_ads002.pkl'
+[2023-11-25 16:03:00,856] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 16:03:00] "[35m[1mPOST /usuario HTTP/1.1[0m" 500 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 16:03:41,796] INFO _log() L224  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000 - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 16:03:41,799] INFO _log() L224  [33mPress CTRL+C to quit[0m - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 16:03:45,774] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 16:03:45] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 16:03:46,241] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 16:03:46] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 16:03:46,241] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 16:03:46] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 16:03:46,243] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 16:03:46] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 16:03:46,353] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 16:03:46] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 16:03:46,362] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 16:03:46] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 16:03:56,593] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 16:03:56] "GET /usuarios HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 16:04:19,572] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 16:04:19] "GET /usuarios?nome=Vanessa HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 16:04:20,164] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 16:04:20] "POST /usuario HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 16:04:31,371] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 16:04:31] "GET /usuarios HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-25 16:04:46,407] INFO _log() L224  127.0.0.1 - - [25/Nov/2023 16:04:46] "GET /usuarios HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-27 20:47:27,225] INFO _log() L224  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000 - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-27 20:47:27,317] INFO _log() L224  [33mPress CTRL+C to quit[0m - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-27 20:47:43,696] INFO _log() L224  127.0.0.1 - - [27/Nov/2023 20:47:43] "[32mGET / HTTP/1.1[0m" 302 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-27 20:47:43,708] INFO _log() L224  127.0.0.1 - - [27/Nov/2023 20:47:43] "GET /openapi/ HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-27 20:47:44,435] INFO _log() L224  127.0.0.1 - - [27/Nov/2023 20:47:44] "[36mGET /openapi/static/images/redoc.svg HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-27 20:47:44,436] INFO _log() L224  127.0.0.1 - - [27/Nov/2023 20:47:44] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-27 20:47:44,436] INFO _log() L224  127.0.0.1 - - [27/Nov/2023 20:47:44] "[36mGET /openapi/static/images/rapidoc.svg HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-27 20:47:45,747] INFO _log() L224  127.0.0.1 - - [27/Nov/2023 20:47:45] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-27 20:47:45,764] INFO _log() L224  127.0.0.1 - - [27/Nov/2023 20:47:45] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-27 20:47:45,771] INFO _log() L224  127.0.0.1 - - [27/Nov/2023 20:47:45] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-27 20:47:45,775] INFO _log() L224  127.0.0.1 - - [27/Nov/2023 20:47:45] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-27 20:47:46,260] INFO _log() L224  127.0.0.1 - - [27/Nov/2023 20:47:46] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=C:\Users\Vanessa Paula\Anaconda31\lib\site-packages\werkzeug\_internal.py L224 
+[2023-11-27 20:47:53,195] WARNING get_usuarios() L51   Não há usuários cadastrados na base :/ - call_trace=C:\_0000_MVP_Final\MVP_ESSI\api\app.py L51  
