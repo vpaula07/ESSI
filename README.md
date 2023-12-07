@@ -1,10 +1,9 @@
-# MVP: Prática de Machine Learning em Python
+# MVP: Prática de Machine Learning em Python 
 
-Este projeto referente ao Desenvolvimento MVP - Sprint 1 - Pós graduação em Engenharia de Software da PUC Rio. 
-
-O objetivo aqui criar um modelo: Usuários que viram anúncio em mídia social e se compraram ou não o produto. (0 = Não comprou e 1 = comprou).
+O objetivo do projeto é criar um modelo (Machine Learning - Back end e Front end) onde usuários que viram anúncio em mídia social e se compraram ou não o produto. (0 = Não comprou e 1 = comprou).
 
 Modelo: ESSI_SN_ADS.ipynb
+
 Front end - Back end e teste : pasta api
 
 ## Como executar
@@ -29,12 +28,12 @@ Abra o http://localhost:5000/#/ no navegador para verificar o status da API em e
 
 Apresentação do Swagger com todas as rotas apresentadas:
 
-![API](image/img01_api.jpg)
+![API](img/api_swagger.jpg)
 
 Interação com o Front end:
 
-![API](image/img01_api.jpg)
+![API](img/front_api.jpg)
 
 No modelo de Machine Learning tivemos uma acurácia de 88%:
 
-![API](image/img01_api.jpg)
+![API](img/acuracia.jpg)
