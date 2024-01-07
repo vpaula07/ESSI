@@ -6,8 +6,6 @@ Modelo: ESSI_SN_ADS.ipynb
 
 Front end - Back end e teste : pasta api
 
-Video: https://www.youtube.com/watch?v=FdOgobfHGwA
-
 ## Como executar
 
 Será necessário ter todas as libs python listadas no requirements.txt instaladas. Após clonar o repositório, é necessário ir ao diretório raiz, pelo terminal, para poder executar os comandos descritos abaixo.
